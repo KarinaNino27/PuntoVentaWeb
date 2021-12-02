@@ -161,6 +161,10 @@ select * from empleado;
 insert into Empleado (idEmpleado, user, password, nombre, apellido, correo, telefono,direccion,rol) 
 values (null,'Karina',sha1('Kary1234'),'Susana Karina','Paramo Niño', 'Karypnino@gmail.com','4451817925', 'Estacion #1', 'administrador');
 
+insert into Empleado (idEmpleado, user, password, nombre, apellido, correo, telefono,direccion,rol) 
+values (null,'Natalia',sha1('Nath1234'),'Natalia Marisol','Garcia Damian', 'NathGarcia@gmail.com','4435661129', 'Puerto de cabras', 'administrador');
+
+
 
 select * from venta;
 select * from detalledeventa;
